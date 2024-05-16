@@ -1,5 +1,7 @@
 package alquieventos;
 
+import java.io.IOException;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -29,7 +31,7 @@ public class WelcomeController {
     
 
     @FXML
-    public void ingresarOnAction(@SuppressWarnings("exports") ActionEvent event){
+    public void ingresarOnAction(@SuppressWarnings("exports") ActionEvent event) throws IOException{
         iniciarSesion.setText("Bienvenido");
     }
     

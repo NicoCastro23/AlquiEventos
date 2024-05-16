@@ -14,7 +14,7 @@ public class Localidad {
         this.capacidad = capacidad;
     }
 
-    //Métodos gets y sets.
+    //Métodos getters y setters.
     public double getPrecio() {
         return precio;
     }

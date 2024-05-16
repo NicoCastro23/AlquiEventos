@@ -1,8 +1,8 @@
 package alquieventos;
-public class Admin extends Persona {
+public class Administrador extends Persona {
 
     //Constructor heredado.
-    public Admin(String nombre, String cedula, String numTelefono, String email, String contraseña) {
+    public Administrador(String nombre, String cedula, String numTelefono, String email, String contraseña) {
         super(nombre, cedula, numTelefono, email, contraseña);
     }
 

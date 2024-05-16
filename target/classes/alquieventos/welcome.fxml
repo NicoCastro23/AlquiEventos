@@ -16,7 +16,7 @@
          <children>
             <VBox prefHeight="400.0" prefWidth="204.0">
                <children>
-                  <Label fx:id="iniciarSesion" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="67.0" prefWidth="134.0" text="Iniciar sesión">
+                  <Label fx:id="iniciarSesion" alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="67.0" prefWidth="134.0" styleClass="iniciarSesion" stylesheets="@welcomeStyle.CSS" text="Iniciar sesión">
                      <font>
                         <Font size="33.0" />
                      </font>
@@ -47,7 +47,7 @@
                   </Button>
                </children>
             </VBox>
-            <VBox prefHeight="400.0" prefWidth="399.0">
+            <VBox prefHeight="400.0" prefWidth="399.0" stylesheets="@welcomeStyle.CSS">
                <children>
                   <Label alignment="CENTER" prefHeight="73.0" prefWidth="301.0" text="Alquieventos">
                      <font>

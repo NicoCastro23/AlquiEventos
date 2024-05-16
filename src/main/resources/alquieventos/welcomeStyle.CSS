@@ -1,3 +1,7 @@
 .iniciarSesion{
-    
+    -fx-background-color: red;
+    -fx-border-color:black;
+}
+.button-ingresar{
+    -fx-background-color: black;
 }
